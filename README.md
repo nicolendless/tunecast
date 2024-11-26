@@ -11,9 +11,6 @@ TuneCast is a FastAPI-based project that provides song recommendations tailored 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Example](#api-example)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
