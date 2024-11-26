@@ -1,12 +1,14 @@
 import requests
 
+from app.domain.weather.base_weather_api import BaseWeatherAPI
 
-class VisualCrossingAPI:
+
+class VisualCrossingAPI(BaseWeatherAPI):
     def __init__(self, api_key: str):
         self.base_url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
         self.api_key = api_key
 
-    def get_weather(self, location: str):
+    def fetch_daily_weather(self, location: str) -> dict:
         params = {
             "unitGroup": "metric",
             "include": "current",
