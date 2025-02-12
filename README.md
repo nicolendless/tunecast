@@ -1,6 +1,8 @@
 # TuneCast 🎵🌦️
 
-TuneCast is a FastAPI-based project that provides song recommendations tailored to the current weather in a specified location.
+TuneCast is a FastAPI-based project that provides song recommendations tailored to the current weather in a specified location. 
+
+**Note:** This project is still a work in progress. The integration with the tune selection is not yet built, and the application currently only retrieves the weather data.
 
 ---
 
@@ -17,6 +19,8 @@ TuneCast is a FastAPI-based project that provides song recommendations tailored 
 ## Description
 
 TuneCast fetches real-time weather data for a given location and uses this information to provide song recommendations that match the mood of the weather. Whether it's sunny, rainy, or cloudy, TuneCast suggests the perfect music to complement the atmosphere.
+
+**Current Status:** Only the weather data retrieval is implemented. The song recommendation feature is coming soon.
 
 ---
 
